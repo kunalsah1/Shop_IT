@@ -1,0 +1,53 @@
+.company {
+    background-color: slategray;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    display: flex;
+    /* margin-top: 50px; */
+    flex-direction: column;
+}
+
+
+
+.company-name h1 {
+    color: white;
+    font-size: 80px;
+    font-family: -webkit-body;
+}
+
+.company-name p {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+
+.shop-btn {
+    margin-top: 40px;
+
+}
+
+.shop-btn a {
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 11px;
+    font-weight: 700;
+
+
+}
+
+.custom-image {
+    max-height: 55rem;
+    object-fit: cover;
+
+}
+
+
+
+@media only screen and (max-width: 850px) {
+    .custom-carousel {
+        height: 225px
+    }
+}
